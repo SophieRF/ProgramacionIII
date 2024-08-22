@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1HTML</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px, solid, black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            1.Estructura básica del Documento HTML
+        </h1>
+        <p>
+            Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.
+        </p>
+    </header>
+    <main>
+        <section>
+            <h1>
+                2.Encabezados y propiedades del texto:
+            </h1>
+            <h2 style="font-weight: bold;">
+                Este es un texto en negrita
+            </h2>
+            <h3 style="font-style: italic;">
+                Este es un texto en cursiva
+            </h3>
+            <h4 style="text-decoration: underline;">
+                Este es un texto subrayado
+            </h4>
+            <h5 style="text-decoration:line-through;">
+                Este es un texto  tachado
+            </h5>
+            <h6 style="color: chocolate;">
+                Este es un texto con color
+            </h6>
+        </section>
+        <section>
+            <h2>
+                3. Divisiones y agrupación de contenido:
+            </h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div</p>
+            </div>
+        </section>
+        <section>
+            <h2>4. Enlaces y listas</h2>
+        <p>Visita nuestro <a href="">sitio web</a> para más información</p>
+        <h3>Enlaces internos</h3>
+        <a href="estructura.html">Ir a Estructura</a>
+        <br>
+        <a href="multimedia.html">Ir a Multimedia</a>
+        <br>
+        <a href="formulario.html">Ir a Formulario</a>
+    
+        <ul>
+            <li>Elemento nro 1 lista sin orden</li>
+            <li>Elemento nro 2 lista sin orden</li>
+        </ul>
+        <ol>
+            <li>Elemento nro 1 lista ordenada</li>
+            <li>Elemento nro 2 lista ordenada</li>
+        </ol>
+        </section>
+        <section>
+            <h2>5. Multimedia</h2>
+        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" alt="Imagen de prueba"width = 300>
+        <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="300"></video>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+        </section>
+        <section>
+            <h2>6. Tablas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fila 1, celda 1</td>
+                    <td>Fila 1, celda 2</td>
+                    <td>Fila 1, celda 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 2, celda 1</td>
+                    <td>Fila 2, celda 2</td>
+                    <td>Fila 2, celda 3</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+        <section>
+            <h2>7. Formularios</h2>
+        <form action="">
+            <label for="">Nombre</label>
+            <input type="text">
+    
+            <label for="">Email</label>
+            <input type="email">
+    
+            <label for="">Mensaje</label>
+            <textarea name="" id=""></textarea>
+    
+            <button>Enviar</button>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>--- Pie de Página ---</p>
+    </footer>
+</body>
+</html>
